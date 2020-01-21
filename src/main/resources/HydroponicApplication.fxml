@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HydroController">
+    <children>
+        <Label alignment="CENTER" prefHeight="80.0" prefWidth="1080.0" style="-fx-background-color: #29d06c;" text="Hydroponic Seed" textFill="#ebfff3">
+            <font>
+                <Font name="Chilanka Regular" size="35.0" />
+            </font>
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+        </Label>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="1080.0">
+         <children>
+              <JFXTextField editable="false" focusColor="#34d03a" labelFloat="true" promptText="Search" unFocusColor="#083508">
+               <HBox.margin>
+                  <Insets right="400.0" />
+               </HBox.margin>
+              </JFXTextField>
+            <JFXButton fx:id="cartBtn" buttonType="RAISED" onAction="#handleCart" prefHeight="34.0" prefWidth="50.0" ripplerFill="#7ef547" style="-fx-background-color: #29d06c; -fx-background-radius: 20;" text="Cart" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="400.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+        <ScrollPane hmax="0.0" pickOnBounds="false" prefHeight="200.0" prefWidth="1080.0" VBox.vgrow="ALWAYS">
+            <content>
+               <AnchorPane>
+               <children>
+                  <VBox fx:id="cardContainer" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox fx:id="cardContent" />
+                     </children>
+                  </VBox>
+               </children>
+               </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</VBox>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdb26bde-7306-45b7-871a-aa71fd5833dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VHo7w7vlrz66Q0cmBhVAVfKS9C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Argana Repository/javafx_login_example" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Aplikasi_Penjualan_Bibit_Hidroponik" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Aplikasi_Penjualan_Bibit_Hidroponik" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
+      <module name="Aplikasi_Penjualan_Bibit_Hidroponik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.Main" />
+      <module name="Aplikasi_Penjualan_Bibit_Hidroponik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.Main" />
+      <module name="Aplikasi_Penjualan_Bibit_Hidroponik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdb26bde-7306-45b7-871a-aa71fd5833dc" name="Default Changelist" comment="" />
+      <created>1576919217371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576919217371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="31" width="800" height="676" key="#Project_Structure" timestamp="1577471121818">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="278" y="31" width="800" height="676" key="#Project_Structure/0.0.1366.740@0.0.1366.740" timestamp="1577471121818" />
+    <state x="491" y="82" width="374" height="574" key="#com.intellij.ide.util.MemberChooser" timestamp="1578418593579">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="491" y="82" width="374" height="574" key="#com.intellij.ide.util.MemberChooser/0.0.1366.740@0.0.1366.740" timestamp="1578418593579" />
+    <state x="436" y="257" width="484" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577551946725">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="436" y="257" width="484" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.740@0.0.1366.740" timestamp="1577551946725" />
+    <state x="436" y="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1577551502775">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="436" y="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.740@0.0.1366.740" timestamp="1577551502775" />
+    <state x="416" y="119" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577351288108">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="416" y="119" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.740@0.0.1366.740" timestamp="1577351288108" />
+    <state x="466" y="128" width="735" height="481" key="FileChooserDialogImpl" timestamp="1578415721113">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="466" y="128" width="735" height="481" key="FileChooserDialogImpl/0.0.1366.740@0.0.1366.740" timestamp="1578415721113" />
+    <state width="1320" height="128" key="GridCell.Tab.0.bottom" timestamp="1578916648430">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state width="1320" height="128" key="GridCell.Tab.0.bottom/0.0.1366.740@0.0.1366.740" timestamp="1578916648430" />
+    <state width="1320" height="128" key="GridCell.Tab.0.center" timestamp="1578916648429">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state width="1320" height="128" key="GridCell.Tab.0.center/0.0.1366.740@0.0.1366.740" timestamp="1578916648429" />
+    <state width="1320" height="128" key="GridCell.Tab.0.left" timestamp="1578916648428">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state width="1320" height="128" key="GridCell.Tab.0.left/0.0.1366.740@0.0.1366.740" timestamp="1578916648428" />
+    <state width="1320" height="128" key="GridCell.Tab.0.right" timestamp="1578916648430">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state width="1320" height="128" key="GridCell.Tab.0.right/0.0.1366.740@0.0.1366.740" timestamp="1578916648430" />
+    <state x="166" y="0" width="1024" height="739" key="SettingsEditor" timestamp="1577555339143">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="166" y="0" width="1024" height="739" key="SettingsEditor/0.0.1366.740@0.0.1366.740" timestamp="1577555339143" />
+    <state x="339" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1578902984848">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="339" y="197" key="com.intellij.ide.util.TipDialog/0.0.1366.740@0.0.1366.740" timestamp="1578902984848" />
+    <state x="0" y="0" width="1356" height="739" key="new project wizard" timestamp="1577530024561">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="0" y="0" width="1356" height="739" key="new project wizard/0.0.1366.740@0.0.1366.740" timestamp="1577530024561" />
+    <state x="379" y="0" width="598" height="739" key="refactoring.ChangeSignatureDialog" timestamp="1578336482624">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="379" y="0" width="598" height="739" key="refactoring.ChangeSignatureDialog/0.0.1366.740@0.0.1366.740" timestamp="1578336482624" />
+    <state x="346" y="61" key="search.everywhere.popup" timestamp="1578385651436">
+      <screen x="0" y="0" width="1366" height="740" />
+    </state>
+    <state x="346" y="61" key="search.everywhere.popup/0.0.1366.740@0.0.1366.740" timestamp="1578385651436" />
+  </component>
+</project>

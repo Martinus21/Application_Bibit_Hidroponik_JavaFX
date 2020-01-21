@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CartController">
+    <Label alignment="CENTER" prefHeight="85.0" prefWidth="800.0" text="Hydro Green" textFill="#29d06c" underline="true">
+        <font>
+            <Font name="Chilanka Regular" size="60.0" />
+        </font>
+        <VBox.margin>
+            <Insets bottom="5.0" />
+        </VBox.margin>
+    </Label>
+    <Label alignment="CENTER" prefHeight="80.0" prefWidth="1080.0" style="-fx-background-color: #29d06c;" text="Cart" textFill="#ebfff3">
+        <font>
+            <Font name="Chilanka Regular" size="35.0" />
+        </font>
+        <VBox.margin>
+            <Insets top="10.0" />
+        </VBox.margin>
+    </Label>
+   <AnchorPane prefHeight="329.0" prefWidth="800.0">
+      <children>
+         <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+               <TableView fx:id="tableViewCart" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+               <HBox alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+                  <children>
+                     <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                        <children>
+                           <Label text="Total Price :" textFill="#29d06c" HBox.hgrow="ALWAYS">
+                              <font>
+                                 <Font name="Chilanka Regular" size="20.0" />
+                              </font>
+                              <HBox.margin>
+                                 <Insets left="50.0" />
+                              </HBox.margin>
+                           </Label>
+                           <Text fx:id="textTotalPrice" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="39.515625" HBox.hgrow="ALWAYS">
+                              <HBox.margin>
+                                 <Insets left="15.0" />
+                              </HBox.margin>
+                              <font>
+                                 <Font name="Chilanka Regular" size="18.0" />
+                              </font>
+                           </Text>
+                        </children>
+                     </HBox>
+                     <JFXButton onAction="#handleBuy" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #29d06c; -fx-background-radius: 30;" text="Buy" textFill="WHITE">
+                        <HBox.margin>
+                           <Insets bottom="10.0" right="25.0" top="10.0" />
+                        </HBox.margin>
+                        <font>
+                           <Font name="Chilanka Regular" size="18.0" />
+                        </font>
+                     </JFXButton>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+      </children>
+   </AnchorPane>
+</VBox>

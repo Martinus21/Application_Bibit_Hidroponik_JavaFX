@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" prefHeight="500.0" prefWidth="1080.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox alignment="CENTER" prefHeight="221.0" prefWidth="668.0" HBox.hgrow="ALWAYS">
+      <Label prefHeight="31.0" prefWidth="443.0" text="Hydroponic" textFill="#52c326">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="30.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Chilanka Regular" size="28.0" />
+         </font>
+      </Label>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HYDROPONIC is a subset of hydroculture, which is a method of growing plants without soil by instead using mineral nutrient solutions in a water solvent." wrappingWidth="396.7294921875">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="10.0" />
+         </VBox.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The nutrients used in hydroponic systems can come from an array of different sources, including (but not limited to) from fish excrement, duck manure, or purchased chemical fertilisers." wrappingWidth="393.41748046875">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="5.0" />
+         </VBox.margin>
+      </Text>
+      <JFXButton prefHeight="26.0" prefWidth="391.0">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </JFXButton>
+   </VBox>
+   <ImageView fx:id="imgHome" fitHeight="275.0" fitWidth="417.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@asset/asset1.png" />
+      </image>
+      <HBox.margin>
+         <Insets right="100.0" />
+      </HBox.margin>
+   </ImageView>
+</HBox>

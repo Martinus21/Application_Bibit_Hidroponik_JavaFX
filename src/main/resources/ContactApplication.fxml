@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContactController">
+   <children>
+      <Label alignment="CENTER" prefHeight="80.0" prefWidth="1080.0" style="-fx-background-color: #29d06c;" text="Contact" textFill="#f2fff4">
+         <font>
+            <Font name="Chilanka Regular" size="35.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <JFXTextField fx:id="firstNameField" focusColor="#34d03a" labelFloat="true" promptText="First Name" unFocusColor="#083508">
+                     <VBox.margin>
+                        <Insets left="50.0" right="10.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <JFXTextField fx:id="lastNameField" focusColor="#34d03a" labelFloat="true" promptText="Last Name" unFocusColor="#083508">
+                     <VBox.margin>
+                        <Insets left="10.0" right="50.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <JFXTextField fx:id="subjectField" focusColor="#34d03a" labelFloat="true" promptText="Subject" unFocusColor="#083508">
+         <VBox.margin>
+            <Insets bottom="10.0" left="50.0" right="50.0" top="10.0" />
+         </VBox.margin>
+      </JFXTextField>
+      <JFXTextArea fx:id="contactMessage" focusColor="#34d03a" labelFloat="true" prefHeight="154.0" prefWidth="980.0" promptText="Your Message" unFocusColor="#083508">
+         <VBox.margin>
+            <Insets left="50.0" right="50.0" top="20.0" />
+         </VBox.margin>
+      </JFXTextArea>
+      <VBox alignment="CENTER_RIGHT" prefHeight="64.0" prefWidth="1080.0" VBox.vgrow="ALWAYS">
+         <children>
+            <JFXButton fx:id="contactSendBtn" buttonType="RAISED" onAction="#handleContactSend" prefHeight="45.0" prefWidth="188.0" style="-fx-background-color: #1de257;" text="Send" textFill="WHITE">
+               <VBox.margin>
+                  <Insets right="100.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Chilanka Regular" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</VBox>

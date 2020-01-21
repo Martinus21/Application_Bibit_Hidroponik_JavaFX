@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="session_log" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+    <StackPane >
+        <AnchorPane fx:id="layersignup" prefHeight="500.0" prefWidth="632.0">
+            <children>
+                <AnchorPane fx:id="layerContent" layoutX="309.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="491.0" style="-fx-background-color: white;">
+                    <children>
+                   <VBox fx:id="signUpContainerContent" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <children>
+                              <Label fx:id="labelContent1" alignment="CENTER" contentDisplay="CENTER" prefHeight="37.0" prefWidth="518.0" text="Create Account" textAlignment="CENTER" textFill="#29d06c" underline="true">
+                                  <font>
+                                      <Font name="Chilanka Regular" size="35.0" />
+                                  </font>
+                            <VBox.margin>
+                               <Insets bottom="80.0" top="80.0" />
+                            </VBox.margin>
+                              </Label>
+                         <JFXTextField fx:id="usernameSignUp" focusColor="#29d06c" labelFloat="true" prefHeight="32.0" prefWidth="258.0" promptText="Username" unFocusColor="#083508">
+                            <VBox.margin>
+                               <Insets left="100.0" right="100.0" />
+                            </VBox.margin>
+                         </JFXTextField>
+                         <JFXPasswordField fx:id="passwordSignUp" focusColor="#29d06c" labelFloat="true" prefHeight="32.0" prefWidth="258.0" promptText="Password" unFocusColor="#083508">
+                            <VBox.margin>
+                               <Insets bottom="10.0" left="100.0" right="100.0" top="20.0" />
+                            </VBox.margin>
+                         </JFXPasswordField>
+                              <JFXButton fx:id="signUpBtn" onAction="#handleSignUp" onMouseClicked="#signUpClickContent" prefHeight="32.0" prefWidth="290.0" style="-fx-background-color: #17753d; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN UP">
+                            <VBox.margin>
+                               <Insets top="20.0" />
+                            </VBox.margin>
+                            <cursor>
+                               <Cursor fx:constant="HAND" />
+                            </cursor>
+                         </JFXButton>
+                      </children>
+                   </VBox>
+                   <VBox fx:id="signInContainerContent" alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <children>
+                              <Label fx:id="labelContent2" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="514.0" text="Sign In To Hydro Green" textAlignment="CENTER" textFill="#29d06c" underline="true">
+                                  <font>
+                                      <Font name="Chilanka Regular" size="35.0" />
+                                  </font>
+                            <VBox.margin>
+                               <Insets bottom="80.0" top="80.0" />
+                            </VBox.margin>
+                              </Label>
+                         <JFXTextField fx:id="usernameSignIn" focusColor="#29d06c" labelFloat="true" prefHeight="32.0" prefWidth="258.0" promptText="Username" unFocusColor="#083508">
+                            <VBox.margin>
+                               <Insets left="100.0" right="100.0" />
+                            </VBox.margin>
+                         </JFXTextField>
+                         <JFXPasswordField fx:id="passwordSignIn" focusColor="#29d06c" labelFloat="true" prefHeight="32.0" prefWidth="258.0" promptText="Password" unFocusColor="#083508">
+                            <VBox.margin>
+                               <Insets bottom="10.0" left="100.0" right="100.0" top="20.0" />
+                            </VBox.margin>
+                         </JFXPasswordField>
+                              <Label fx:id="forgetPasswordSignIn" alignment="CENTER" contentDisplay="CENTER" prefHeight="10.0" prefWidth="267.0" text="Forget Your Password" textAlignment="CENTER" textFill="#17753d">
+                                  <font>
+                                      <Font name="System Bold" size="13.0" />
+                                  </font>
+                            <VBox.margin>
+                               <Insets bottom="20.0" top="20.0" />
+                            </VBox.margin>
+                            <cursor>
+                               <Cursor fx:constant="HAND" />
+                            </cursor>
+                              </Label>
+                              <JFXButton fx:id="signInBtn" onAction="#handleSignIn" onMouseClicked="#signInClickContent" prefHeight="32.0" prefWidth="290.0" style="-fx-background-color: #17753d; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN IN">
+                            <VBox.margin>
+                               <Insets top="20.0" />
+                            </VBox.margin>
+                            <cursor>
+                               <Cursor fx:constant="HAND" />
+                            </cursor>
+                         </JFXButton>
+                      </children>
+                   </VBox>
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+        <AnchorPane fx:id="layerSlide" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="309.0" style="-fx-background-color: #29d06c;" StackPane.alignment="CENTER_LEFT">
+            <children>
+             <VBox fx:id="signUpContainer" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <children>
+                      <Label fx:id="labelSlide1" alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="309.0" text="Welcome to Hydro Green !" textFill="WHITE">
+                          <font>
+                              <Font name="Chilanka Regular" size="20.0" />
+                          </font>
+                      <VBox.margin>
+                         <Insets bottom="20.0" />
+                      </VBox.margin>
+                      </Label>
+                      <JFXButton fx:id="signUpSlide" onMouseClicked="#signUpClick" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #29d06c; -fx-border-radius: 200; -fx-border-color: white; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN UP">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      <cursor>
+                         <Cursor fx:constant="HAND" />
+                      </cursor>
+                      </JFXButton>
+                </children>
+             </VBox>
+             <VBox fx:id="signInContainer" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <children>
+                      <Label fx:id="labelSlide2" alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="309.0" text="Hello, Create Your Account !" textFill="WHITE">
+                          <font>
+                              <Font name="Chilanka Regular" size="20.0" />
+                          </font>
+                      <VBox.margin>
+                         <Insets bottom="20.0" />
+                      </VBox.margin>
+                      </Label>
+                      <JFXButton fx:id="signInSlide" onMouseClicked="#signInClick" prefHeight="39.0" prefWidth="135.0" style="-fx-background-color: #29d06c; -fx-border-radius: 200; -fx-border-color: white; -fx-background-radius: 200; -fx-text-fill: white;" text="SIGN IN">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      <cursor>
+                         <Cursor fx:constant="HAND" />
+                      </cursor>
+                      </JFXButton>
+                </children>
+             </VBox>
+            </children>
+        </AnchorPane>
+    </StackPane>
+</AnchorPane>

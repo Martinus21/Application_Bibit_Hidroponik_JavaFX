@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutX="260.0" layoutY="101.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="85.0" prefWidth="1080.0" text="Hydro Green" textFill="#29d06c" underline="true">
+                    <font>
+                        <Font name="Chilanka Regular" size="60.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="15.0" />
+               </VBox.margin>
+                </Label>
+                <HBox alignment="CENTER" prefHeight="57.0" prefWidth="750.0">
+                    <children>
+                        <JFXButton buttonType="RAISED" onAction="#handleHome" prefHeight="33.0" prefWidth="90.0" ripplerFill="#7ef149" style="-fx-background-color: #29d06c; -fx-background-radius: 10;" text="Home" textFill="WHITE">
+                            <HBox.margin>
+                                <Insets right="20.0" />
+                            </HBox.margin>
+                            <font>
+                                <Font name="Chilanka Regular" size="15.0" />
+                            </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" onAction="#handleHydro" prefHeight="33.0" prefWidth="159.0" ripplerFill="#80f549e1" style="-fx-background-color: #29d06c; -fx-background-radius: 10;" text="Hydroponic Seed" textFill="WHITE">
+                            <font>
+                                <Font name="Chilanka Regular" size="15.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="10.0" right="10.0" />
+                            </HBox.margin>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" onAction="#handleContact" prefHeight="33.0" prefWidth="90.0" ripplerFill="#7ef547" style="-fx-background-color: #29d06c; -fx-background-radius: 10;" text="Contact" textFill="WHITE">
+                            <font>
+                                <Font name="Chilanka Regular" size="15.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </JFXButton>
+                    </children>
+                </HBox>
+                <AnchorPane fx:id="contenContainer" prefHeight="500.0" prefWidth="1080.0" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin></AnchorPane>
+                <VBox alignment="CENTER" prefHeight="41.0" prefWidth="1080.0" style="-fx-background-color: #19bf49;" VBox.vgrow="ALWAYS">
+                    <children>
+                        <Text fill="#b6ebaf" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyright © 2019 - Build in Love By Martinus Richard" />
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
